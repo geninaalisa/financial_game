@@ -1,5 +1,5 @@
-from random import randint
 # -*- encoding: utf-8 -*-
+from random import randint
 import vk_api
 from random import randint
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
