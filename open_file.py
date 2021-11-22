@@ -56,6 +56,8 @@ class Bot:
                     self.income += self.influence/100
                 if self.block == '4':
                     self.job = choice
+                if self.block == '10' and choice == 'Я очень хочу эту работу!!!':
+                    self.job = 'Заместитель директора крупного банка'
                 return str(self.money)
         return None 
 
